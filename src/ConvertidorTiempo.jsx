@@ -4,7 +4,7 @@ const ConvertidorTiempo = () => {
     const [segundos, setSegundos] = useState(0);
     const [tiempoConvertido, setTiempoConvertido] = useState('');
 
-    console.log(segundos);
+    console.log(`${segundos}`);
 
     const manejoValorDiferente = (e) => {
         const value = e.target.value; 
